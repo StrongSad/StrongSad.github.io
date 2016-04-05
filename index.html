@@ -1,1 +1,142 @@
-Jacob Barrus
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Jacob Barrus</title>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#">Jacob Barrus | Web Developer</a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav navbar-right">
+					<li ><a href="#">Interests</a></li>
+					<li><a href="#">Contact Info</a></li>
+				</ul>
+				
+				<ul class="nav navbar-nav navbar-right">
+					<li><a href="#">About Me</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">Projects <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li style="text-align: center">In Class Work</li>
+							<hr/>
+							<li><a href="http://story-teller-polecat-80121.bitballoon.com/" target="_blank">Tempurature Converter</a></li>
+							<li><a href="http://masseur-cat-72858.bitballoon.com/" target="_blank">Tic Tac Toe</a></li>
+							<li><a href="http://importer-andrew-22232.bitballoon.com/" target="_blank">To Do List Maker</a></li>
+							<hr/>
+							<li style="text-align: center;">Projects</li>
+							<hr/>
+							<li><a href="#">soon</a></li>
+						</ul>
+					</li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+
+	<div class="container">
+		<section class="row">
+			<div class="col-md-6 thumbnail" style="text-align: center;">
+				<img src="./img/family-picture.jpg">
+				<p>This is me and my family. I am the one in the top right hand corner.</p>
+			</div>
+			<div class="col-md-6">
+				<h2 style="text-align: center;">About Me</h2>
+				<p>My name is Jacob Barrus. I'm twenty years old and entering into the programming and software development industry. Currently I reside in the greater seattle area of Washington. Growing up I attended Mt. Si Hight School and graduated in 2014. I have a two year degree from Bellevue College and attended the WDI course at General Assembly in thier Seattle location. </p>
+				<p>There are several things that I love to do. Anime and video games have been a large part of my life growing. By definition I am a nerd and I love being one. A couple of my favorite shows are Cowboy Bebop, Naruto, Evangellion and many many more. In terms of games Shadow of the Colossus will always hold a special place in my heart along side Halo, Gears of war, and Uncharted.</p>
+				<p>Currently I am still attending General Assembly and hope to start working as a web developer in the next three to five months.</p>
+			</div>
+		</section>
+	</div>
+
+	<div class="col-md-12">
+		<hr/>
+	</div>
+	<div class="container">
+		<div class="row">
+			<section class="col-md-offset-3 col-md-6">
+				<h2 style="text-align: center;">Contact Info</h2>
+			</section>
+		</div>
+	</div>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-offset-4 col-md-4" style="text-align: center;">
+				<p>If you'd like to contact me there are several ways that will work. You can find me on Linkedin, github, twitter, facebook (not regularly), and Instagram. If those don't work for you go ahead and send me an email using the form below! </p>
+			</div>
+		</div>
+	</div>
+	<div class="container">
+		<section class="row">
+			<div class="col-md-offset-3 col-md-6" style="text-align: center;">
+				<a href="https://www.linkedin.com/profile/preview?vpa=pub&locale=en_US" target="_blank"><i class="fa fa-linkedin-square fa-3x"></i></a>
+				<a href="https://github.com/StrongSad" target="_blank"><i class="fa fa-github-square fa-3x"></i></a>
+				<a href="https://twitter.com/Jacob_kb" target="_blank"><i class="fa fa-twitter-square fa-3x"></i></a>
+				<a href="https://www.facebook.com/jacob.barrus" target="_blank"><i class="fa fa-facebook-official fa-3x"></i></a>
+				<a href="https://www.instagram.com/jacob_barrus/" target="_blank"><i class="fa fa-instagram fa-3x"></i></a>
+			</div>
+		</section>
+	</div>
+
+	<div class="container" style="margin-top: 5%;">
+		<section class="row">
+			<div class="col-md-offset-3 col-md-6 thumbnail" >
+				<form role="form" id="email-form">
+					<div class="form-group">
+						<label for="email">Email address:</label>
+						<input id="email" type="email" class="form-control" placeholder="Enter your email address" />
+					</div>
+
+					<div class="form-group">
+						<label for="email">Name:</label>
+						<input id="name" type="text" placeholder="Enter name" class="form-control"></input>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Company / Organization:</label>
+						<input id="company" class="form-control" type="text" placeholder="Enter company if applicable"></input>
+					</div>
+
+					<div class="form-group">
+						<label for="email">Type message:</label>
+						<input id="message" class="form-control" type="text" placeholder="Message"></input>
+					</div>
+
+					<div class="form-group" style="text-align: right;">
+						<button id="send" class="btn btn-primary">Send Message</button>
+					</div>
+				</form>
+			</div>
+		</section>
+	</div>
+
+
+
+
+
+
+
+
+	<script src="https://code.jquery.com/jquery.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+
+	<script type="text/javascript" src="script.js"></script>
+</body>
+</html>
